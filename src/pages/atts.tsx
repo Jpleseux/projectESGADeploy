@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-
+import tabuada from "../../public/images/tabuada.webp"
 function Atts() {
     return (
         <>
@@ -10,7 +10,7 @@ function Atts() {
                 <div className="row justify-content-center">
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/tabuada.webp" className="card-img-top" alt="Tabuada" />
+                            <img src={tabuada} className="card-img-top" alt="Tabuada" />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 01</h5>
                                 <h6 className="card-subtitle mb-2">Tabuada com dois comandos</h6>
