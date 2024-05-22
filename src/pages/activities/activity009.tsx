@@ -15,7 +15,10 @@ function Activity009() {
 
     const handleAddMore = () => {
         setCount((prevCount) => prevCount + 1);
-        document.getElementById('oxWeightInput').value = ''; // Reset input field
+        const inputElement = document.getElementById('oxWeightInput') as HTMLInputElement;
+        if (inputElement) {
+            inputElement.value = '';
+        }
     };
 
     const calculate = () => {
