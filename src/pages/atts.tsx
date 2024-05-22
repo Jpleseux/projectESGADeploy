@@ -16,7 +16,7 @@ function Atts() {
                                 <a href="/activities/001" className="btn btn-primary mr-2">
                                     <i className="fas fa-link"></i> Ver Desafio
                                 </a>
-                                <a href="#" className="btn btn-secondary">
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary">
                                     <i className="fab fa-github"></i> Github
                                 </a>
                             </div>
@@ -32,7 +32,7 @@ function Atts() {
                                 <a href="/activities/002" className="btn btn-primary mr-2">
                                     <i className="fas fa-link"></i> Ver Desafio
                                 </a>
-                                <a href="#" className="btn btn-secondary">
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary">
                                     <i className="fab fa-github"></i> Github
                                 </a>
                             </div>
@@ -48,7 +48,7 @@ function Atts() {
                                 <a href="/activities/003" className="btn btn-primary mr-2">
                                     <i className="fas fa-link"></i> Ver Desafio
                                 </a>
-                                <a href="#" className="btn btn-secondary">
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary">
                                     <i className="fab fa-github"></i> Github
                                 </a>
                             </div>
@@ -64,7 +64,7 @@ function Atts() {
                                 <a href="/activities/004" className="btn btn-primary mr-2">
                                     <i className="fas fa-link"></i> Ver Desafio
                                 </a>
-                                <a href="#" className="btn btn-secondary">
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary">
                                     <i className="fab fa-github"></i> Github
                                 </a>
                             </div>
@@ -78,7 +78,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Calcular</h6>
                                 <p className="card-text">Calcular Litros com base no peso</p>
                                 <a href="/activities/005" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Jogar Pedra papel tesoura</h6>
                                 <p className="card-text">Deve fazer um jogo de pedra papel e tesoura</p>
                                 <a href="/activities/006" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Gerar Senhas</h6>
                                 <p className="card-text">Gerar senhas com numeros e caracteres especiais</p>
                                 <a href="/activities/007" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -114,7 +114,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Inverter Palavras</h6>
                                 <p className="card-text">Gerar palavras invertidas de acordo com a palavra que o usuario fornecer</p>
                                 <a href="/activities/008" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Desafio do boi</h6>
                                 <p className="card-text">Gerenciar lote de bois</p>
                                 <a href="/activities/009" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Desafio de Multa</h6>
                                 <p className="card-text">Calcular porcentagem de multa com base em velocidade</p>
                                 <a href="/activities/011" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Desafio IMC</h6>
                                 <p className="card-text">Calcular IMC de acordo com peso e altura</p>
                                 <a href="/activities/012" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -162,7 +162,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Desafio Calculadora</h6>
                                 <p className="card-text">Calcular valores de acordo com parametros</p>
                                 <a href="/activities/013" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Desafio Validar CPF</h6>
                                 <p className="card-text">Calcular CPF e retornar se é válido ou não</p>
                                 <a href="/activities/014" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -186,7 +186,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Desafio Consumo gasolina</h6>
                                 <p className="card-text">Calcular Consumo gasolina</p>
                                 <a href="/activities/015" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -198,7 +198,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Desafio bhaskara</h6>
                                 <p className="card-text">Calcular valor de bhaskara</p>
                                 <a href="/activities/016" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -210,7 +210,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Desafio entregador</h6>
                                 <p className="card-text">Atividade Descritivo para descrever entregas</p>
                                 <a href="/activities/017" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -222,7 +222,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Desafio do ovo</h6>
                                 <p className="card-text">Atividade Descritivo pra fritar ovo</p>
                                 <a href="/activities/018" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -234,7 +234,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Desafio da nota</h6>
                                 <p className="card-text">Atividade para calcular nota do aluno</p>
                                 <a href="/activities/019" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
@@ -246,7 +246,7 @@ function Atts() {
                                 <h6 className="card-subtitle mb-2">Desafio da nota de trabalho</h6>
                                 <p className="card-text">Atividade para calcular nota de trabalho do aluno com peso na nota</p>
                                 <a href="/activities/020" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</a>
-                                <a href="#" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
                             </div>
                         </div>
                     </div>
