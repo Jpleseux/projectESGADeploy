@@ -1,5 +1,24 @@
 import { Link } from 'react-router-dom';
 import tabuada from "../../public/images/tabuada.webp"
+import convert from "../../public/images/convert.webp"
+import clock from "../../public/images/clock.webp"
+import numbers from "../../public/images/numbers.jpg"
+import water from "../../public/images/water.png"
+import game from "../../public/images/game.jpg"
+import egg from "../../public/images/egg.jpeg"
+import delivery from "../../public/images/delivery.png"
+import bask from "../../public/images/bask.png"
+import boi from "../../public/images/boi.webp"
+import pass from "../../public/images/password.jpeg"
+import words from "../../public/images/palavras.jpg"
+import multa from "../../public/images/multa.jpeg"
+import imc from "../../public/images/obesidade.jpg"
+import calc from "../../public/images/calc.jpg"
+import cpf from "../../public/images/cpf.jpg"
+import gas from "../../public/images/gas.jpeg"
+import note from "../../public/images/note.jpg"
+import note2 from "../../public/images/note2.webp"
+import compra from "../../public/images/compra.webp"
 function Atts() {
     return (
         <>
@@ -26,7 +45,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/convert.webp" className="card-img-top" alt="Conversor" />
+                            <img src={convert} className="card-img-top" alt="Conversor" />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 02</h5>
                                 <h6 className="card-subtitle mb-2">Conversor</h6>
@@ -42,7 +61,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/clock.webp" className="card-img-top" alt="Calcular Idade" />
+                            <img src={clock} className="card-img-top" alt="Calcular Idade" />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 03</h5>
                                 <h6 className="card-subtitle mb-2">Calcular Idade</h6>
@@ -58,7 +77,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/numbers.jpg" className="card-img-top" alt="Verificar impar ou par" />
+                            <img src={numbers} className="card-img-top" alt="Verificar impar ou par" />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 04</h5>
                                 <h6 className="card-subtitle mb-2">Verificar impar ou par</h6>
@@ -74,7 +93,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/water.png" className="card-img-top" alt="..." />
+                            <img src={water} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 05</h5>
                                 <h6 className="card-subtitle mb-2">Calcular</h6>
@@ -86,7 +105,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/game.jpg" className="card-img-top" alt="..." />
+                            <img src={game} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 06</h5>
                                 <h6 className="card-subtitle mb-2">Jogar Pedra papel tesoura</h6>
@@ -98,7 +117,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/password.jpeg" className="card-img-top" alt="..." />
+                            <img src={pass} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 07</h5>
                                 <h6 className="card-subtitle mb-2">Gerar Senhas</h6>
@@ -110,7 +129,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/palavras.jpg" className="card-img-top" alt="..." />
+                            <img src={words} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 08</h5>
                                 <h6 className="card-subtitle mb-2">Inverter Palavras</h6>
@@ -122,7 +141,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/boi.webp" className="card-img-top" alt="..." />
+                            <img src={boi} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 09</h5>
                                 <h6 className="card-subtitle mb-2">Desafio do boi</h6>
@@ -134,7 +153,19 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/multa.jpeg" className="card-img-top" alt="..." />
+                            <img src={compra} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Desafio 10</h5>
+                                <h6 className="card-subtitle mb-2">Desafio de compra</h6>
+                                <p className="card-text">Calcular valor da compra descontando o desconto</p>
+                                <Link to="/activities/010" className="btn btn-primary mr-2"><i className="fas fa-link"></i>Ver Desafio</Link>
+                                <a href="https://github.com/Jpleseux/projectESGA" className="btn btn-secondary"><i className="fab fa-github"></i> Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <div className="card " style={{ width: "18rem" }}>
+                            <img src={multa} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 11</h5>
                                 <h6 className="card-subtitle mb-2">Desafio de Multa</h6>
@@ -146,7 +177,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/obesidade.jpg" className="card-img-top" alt="..." />
+                            <img src={imc} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 12</h5>
                                 <h6 className="card-subtitle mb-2">Desafio IMC</h6>
@@ -158,7 +189,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/calc.jpg" className="card-img-top" alt="..." />
+                            <img src={calc} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 13</h5>
                                 <h6 className="card-subtitle mb-2">Desafio Calculadora</h6>
@@ -170,7 +201,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/cpf.jpg" className="card-img-top" alt="..." />
+                            <img src={cpf} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 14</h5>
                                 <h6 className="card-subtitle mb-2">Desafio Validar CPF</h6>
@@ -182,7 +213,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/gas.jpeg" className="card-img-top" alt="..." />
+                            <img src={gas} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 15</h5>
                                 <h6 className="card-subtitle mb-2">Desafio Consumo gasolina</h6>
@@ -194,7 +225,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/bask.png" className="card-img-top" alt="..." />
+                            <img src={bask} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 16</h5>
                                 <h6 className="card-subtitle mb-2">Desafio bhaskara</h6>
@@ -206,7 +237,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/delivery.png" className="card-img-top" alt="..." />
+                            <img src={delivery} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 17</h5>
                                 <h6 className="card-subtitle mb-2">Desafio entregador</h6>
@@ -218,7 +249,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/egg.jpeg" className="card-img-top" alt="..." />
+                            <img src={egg} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 18</h5>
                                 <h6 className="card-subtitle mb-2">Desafio do ovo</h6>
@@ -230,7 +261,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/note.jpg" className="card-img-top" alt="..." />
+                            <img src={note} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 19</h5>
                                 <h6 className="card-subtitle mb-2">Desafio da nota</h6>
@@ -242,7 +273,7 @@ function Atts() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <div className="card " style={{ width: "18rem" }}>
-                            <img src="../../public/images/note2.webp" className="card-img-top" alt="..." />
+                            <img src={note2} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Desafio 20</h5>
                                 <h6 className="card-subtitle mb-2">Desafio da nota de trabalho</h6>

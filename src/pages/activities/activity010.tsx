@@ -26,7 +26,7 @@ function Activity010() {
         <div>
             <div className="info-section">
                 <h1>Desafio 10</h1>
-                <p>Algoritmo do Boi</p>
+                <p>Algoritmo da compra</p>
                 <p>
                     O usuário deve poder informar o valor da venda e do desconto.
                     <br />
