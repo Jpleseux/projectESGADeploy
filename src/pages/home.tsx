@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../../public/css/index.css";
 function Home() {
     return (
@@ -13,8 +14,8 @@ function Home() {
             <section className="challenges-section">
                 <h2>Desafios</h2>
                 <ul>
-                    <a href="/activities" style={{textDecoration: "none"}}><li>Acessar Desafios</li></a>
-                    <a href="/about" style={{textDecoration: "none"}}><li>Alunos</li></a>
+                    <Link to="/activities" style={{textDecoration: "none"}}><li>Acessar Desafios</li></Link>
+                    <Link to="/about" style={{textDecoration: "none"}}><li>Alunos</li></Link>
                 </ul>
             </section>
 
